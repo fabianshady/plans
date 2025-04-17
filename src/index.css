@@ -1,0 +1,55 @@
+
+body {
+  background-color: #fff5f5;
+  font-family: 'Arial', sans-serif;
+}
+
+.card-plan {
+  transition: transform 0.3s;
+}
+
+.card-plan:hover {
+  transform: scale(1.03);
+}
+
+/* Colores por categoría */
+.salida_pareja {
+  border-left: 5px solid #e91e63;
+}
+
+.salida_amigos {
+  border-left: 5px solid #2196f3;
+}
+
+.viaje {
+  border-left: 5px solid #4caf50;
+}
+
+.partido {
+  border-left: 5px solid #ff9800;
+}
+
+.concierto {
+  border-left: 5px solid #9c27b0;
+}
+
+/* Colores de texto para íconos */
+.text-pink {
+  color: #e91e63;
+}
+
+.text-blue {
+  color: #2196f3;
+}
+
+.text-green {
+  color: #4caf50;
+}
+
+.text-orange {
+  color: #ff9800;
+}
+
+.text-purple {
+  color: #9c27b0;
+}
